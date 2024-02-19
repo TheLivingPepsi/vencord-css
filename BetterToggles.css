@@ -1,0 +1,30 @@
+/*
+  BetterToggles
+  DaBluLite, issu
+  2/19/2024
+
+  A small redesign of the default Discord Toggles.
+*/
+
+.container__871ba .slider__41d94 > svg > path,
+.container__871ba .slider__41d94 > rect {
+  fill: white !important;
+}
+.container__871ba .slider__41d94 {
+  margin-top: -2px;
+  margin-left: -4px;
+}
+.container__871ba.checked__6bdb0 .slider__41d94 {
+  margin-left: 0;
+}
+.container__871ba.checked__6bdb0 .slider__41d94 > svg > path,
+.container__871ba.checked__6bdb0 .slider__41d94 > rect {
+  fill: var(--brand-experiment-300) !important;
+}
+.container__871ba:has(.slider__41d94) {
+  height: 14px;
+  width: 28px !important;
+}
+.container__871ba.checked__6bdb0:has(.slider__41d94) {
+  background-color: var(--brand-experiment) !important;
+}

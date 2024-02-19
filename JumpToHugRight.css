@@ -1,0 +1,11 @@
+/* 
+  JumpToHugRight
+  katlyn
+  10/27/2023
+
+  Makes "Jump to Present"/"Jump to Original"/"Mark as Read" bars smaller and hug the right.
+*/
+.barBase__4e0ba {
+  width: fit-content;
+  margin-left: auto;
+}

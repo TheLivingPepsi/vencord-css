@@ -1,0 +1,12 @@
+/* 
+  FixVencordVersion
+  pointy
+  10/25/2023
+
+  Reverts transforms on settings info that isn't Discord's version, primarily Vencord's version.
+*/
+[aria-label="User Settings"]
+  [class^="info_"]
+  :not(:has([class^="versionHash_"])) {
+  text-transform: none;
+}

@@ -1,0 +1,11 @@
+/* 
+  Italicize emojis 
+  akirasimplex
+  11/14/2023
+
+  Italicizes emojis.
+*/
+
+em .emoji {
+  transform: skew(-14deg);
+}

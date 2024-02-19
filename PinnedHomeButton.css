@@ -1,0 +1,27 @@
+/*
+  Pinned Home Button
+  Nyria, issu
+  2/19/2024
+
+  Pins the home button to the sidebar.
+*/
+
+.tutorialContainer__890ea {
+  position: fixed;
+  top: 22px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0);
+}
+
+.guilds__2b93a .scroller__3d071 {
+  contain: none !important;
+  padding-top: 60px;
+}
+
+.scroller__3d071 {
+  padding-top: 0px !important;
+}
+
+.wrapper_a7e7a8 {
+  padding-top: 60px !important;
+}

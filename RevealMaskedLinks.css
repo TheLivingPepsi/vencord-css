@@ -1,0 +1,13 @@
+/* 
+  RevealMaskedLinks
+  sunnie
+  11/1/2023
+
+  Displays the URL of the masked link in the message.
+*/
+
+.anchor_c8ddc0[title$=")"]::after {
+  font-size: 0.7rem;
+  content: " (" attr(href) ")";
+  filter: grayscale(0.4);
+}

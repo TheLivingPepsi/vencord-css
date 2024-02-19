@@ -3,7 +3,7 @@
   lumap, issu
   2/18/2024
 
-  Makes bios show all text in user popout/profile view.
+  Extends the amount of lines displayed in the bio in the user popout/profile.
 */
 
 [class*="userPopoutOverlayBackground_"] [class*="lineClamp2Plus_"],

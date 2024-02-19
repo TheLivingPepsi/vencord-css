@@ -1,0 +1,15 @@
+/*
+  RemoveVoiceIndicator
+  katlyn, Blade0
+  12/02/2023
+  
+  Removes the "X IN VOICE" and "Show All" voice indicators.
+*/
+
+[class^="bar__"]:has([class^="voiceChannelsIcon__"]) {
+  display: none;
+}
+
+.voiceChannelsButton__46c37 {
+  display: none;
+}
