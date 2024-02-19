@@ -8,3 +8,15 @@
  * @source https://github.com/TheLivingPepsi/vencord-css
  * @donate https://ko-fi.com/thelivingpepsi
 */
+
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/BetterAuthApps.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/BetterFolderIcons.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/BetterStatusPicker.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/BetterToggles.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/FixVencordVersion.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/ItalicizeEmojis.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/JumpToHugRight.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/LongerBios.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/PinnedHomeButton.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/RemoveVoiceIndicator.css);
+@import url(https://raw.githubusercontent.com/TheLivingPepsi/vencord-css/main/RevealMaskedLinks.css);
