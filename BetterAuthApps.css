@@ -1,0 +1,85 @@
+/*
+  BetterAuthApps
+  DaBluLite
+  10/29/2023
+
+  A redesign to the Authorized app cards, as well as a counter at the top of the tab.
+*/
+
+#authorized-apps-tab .deleteApp__18070 {
+  opacity: 1;
+  border: none;
+  background-color: var(--button-danger-background);
+  transition: background-color 0.17s ease, color 0.17s ease;
+}
+#authorized-apps-tab .deleteApp__18070:hover {
+  background-color: var(--button-danger-background-hover);
+}
+#authorized-apps-tab .children_b15c64 {
+  counter-reset: section -1;
+  position: relative;
+}
+#authorized-apps-tab .children_b15c64 > .authedApp__51b26 {
+  counter-increment: section;
+}
+#authorized-apps-tab .children_b15c64::after {
+  counter-increment: section;
+  content: "Authorized Apps: " counter(section);
+  order: -1;
+  position: absolute;
+  color: var(--header-primary);
+  top: -44px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+#authorized-apps-tab .children_b15c64 .flexChild__6e093 > h3 {
+  display: flex;
+}
+#authorized-apps-tab .sectionTitle_e32631 {
+  opacity: 0;
+}
+#authorized-apps-tab .appAvatar_dc107b {
+  width: 46px;
+  height: 46px;
+  background-color: var(--background-floating);
+  box-shadow: 0 0 0 5px var(--background-floating);
+}
+#authorized-apps-tab .headerInfo__2d6b1 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: -50px;
+}
+#authorized-apps-tab .headerInfo__2d6b1 > h4 {
+  margin-left: 0;
+  font-size: 20px;
+}
+#authorized-apps-tab .authedApp__51b26:not(:nth-child(2)) {
+  margin-top: 40px;
+}
+#authorized-apps-tab .permission_b5be39 {
+  border-bottom: 1px solid hsl(var(--primary-300-hsl) / 0.3);
+  padding: 6px;
+  height: fit-content;
+  transition: 0.05s;
+}
+#authorized-apps-tab .permission_b5be39:hover {
+  border-color: var(--primary-300);
+}
+#authorized-apps-tab .authedApp__51b26 {
+  background-color: var(--background-secondary-alt);
+  transition: box-shadow 0.2s ease-out, transform 0.2s ease-out,
+    background 0.2s ease-out, opacity 0.2s ease-in,
+    -webkit-box-shadow 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  border: none;
+  border-radius: 8px;
+}
+#authorized-apps-tab .authedApp__51b26:hover {
+  background-color: var(--background-tertiary);
+  transform: translateY(-1px);
+  box-shadow: var(--elevation-high);
+}
+#authorized-apps-tab .authedApp__51b26:hover .appAvatar_dc107b {
+  box-shadow: 0 0 0 5px var(--background-floating), var(--elevation-high);
+}

@@ -1,0 +1,12 @@
+/*
+  LongerBios
+  lumap, issu
+  2/18/2024
+
+  Makes bios show all text in user popout/profile view.
+*/
+
+[class*="userPopoutOverlayBackground_"] [class*="lineClamp2Plus_"],
+[class*="userProfileModalOverlayBackground_"] [class*="lineClamp2Plus_"] {
+  -webkit-line-clamp: 190 !important;
+}
